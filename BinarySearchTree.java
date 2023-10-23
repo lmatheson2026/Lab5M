@@ -1,9 +1,8 @@
 
 public abstract class BinarySearchTree {
 	protected node root;
-
+	protected int size;
 	public class node {
-		int size;
 		int data;
 		node left;
 		node right; 
